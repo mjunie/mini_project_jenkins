@@ -4,7 +4,7 @@
 pipeline {
     environment {
         IMAGE_NAME = "staticwebsite"
-        APP_EXPOSED_PORT = "80"
+        APP_EXPOSED_PORT = "81"
         IMAGE_TAG = "latest"
         STAGING = "chocoapp-staging"
         PRODUCTION = "chocoapp-prod"
