@@ -12,7 +12,7 @@ pipeline {
         DOCKERHUB_PASSWORD = credentials('dockerhub_password')
         APP_NAME = "junie"
         STG_API_ENDPOINT = "10.0.1.3:1993"
-        STG_APP_ENDPOINT = "10.0.1.3:${PORT_EXPOSED}90"
+        STG_APP_ENDPOINT = "10.0.1.3:${PORT_EXPOSED}91"
         PROD_API_ENDPOINT = "10.0.1.3:1993"
         PROD_APP_ENDPOINT = "10.0.1.3:${PORT_EXPOSED}"
         INTERNAL_PORT = "80"
@@ -84,7 +84,7 @@ pipeline {
       steps {
           script {
             sh """
-              echo  {\\"your_name\\":\\"${APP_NAME}\\",\\"container_image\\":\\"${CONTAINER_IMAGE}\\", \\"external_port\\":\\"${EXTERNAL_PORT}90\\", \\"internal_port\\":\\"${INTERNAL_PORT}\\"}  > data.json 
+              echo  {\\"your_name\\":\\"${APP_NAME}\\",\\"container_image\\":\\"${CONTAINER_IMAGE}\\", \\"external_port\\":\\"${EXTERNAL_PORT}91\\", \\"internal_port\\":\\"${INTERNAL_PORT}\\"}  > data.json 
               curl -k -v -X POST http://${STG_API_ENDPOINT}/staging -H 'Content-Type: application/json'  --data-binary @data.json  2>&1 | grep 200
             """
           }
