@@ -8,7 +8,7 @@ pipeline {
         IMAGE_TAG = "latest"
         STAGING = "chocoapp-staging"
         PRODUCTION = "chocoapp-prod"
-        DOCKERHUB_ID = "choco1992"
+        DOCKERHUB_ID = "671609644"
         DOCKERHUB_PASSWORD = credentials('dockerhub_password')
         APP_NAME = "junie"
         STG_API_ENDPOINT = "10.0.1.3:1993"
