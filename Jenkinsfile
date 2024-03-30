@@ -1,5 +1,5 @@
 /* import shared library a preciser dans mon interface jenkins */
-@Library('chocoapp-slack-share-library')_
+@Library('junie-webapp-slack-share-library')_
 
 pipeline {
     environment {
