@@ -48,7 +48,7 @@ Ce stage déploie l'application dans les environnements de staging  et de prod s
 ### Test de l'application
 Pour s'assurer que le deploiement en staging et en production s'est bien effectuée, on envoie des notifications dans un channel privé slack que nous avons au préalable configuré dans notre jenkins.
 
-### appercue des notifications
+### post - Aperçu des notifications
 notification
 ![Tux, pipeline code](/images/slacknotification.png)
 
