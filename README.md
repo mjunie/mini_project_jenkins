@@ -59,7 +59,7 @@ webapp
 
 
 ## Technologies utilisées
-*Docker* : Pour conteneuriser l'application et faciliter son déploiement.
-*Jenkins* : Pour automatiser les étapes de construction, de test et de déploiement de l'application.
-*Slack*: pour recevoir des notification provenant de jenkins.
-*Eazylabs* : Pour héberger l'application dans différents environnements ( staging et production).
+- *Docker* : Pour conteneuriser l'application et faciliter son déploiement.
+- *Jenkins* : Pour automatiser les étapes de construction, de test et de déploiement de l'application.
+- *Slack*: pour recevoir des notification provenant de jenkins.
+- *Eazylabs* : Pour héberger l'application dans différents environnements ( staging et production).
