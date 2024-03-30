@@ -16,7 +16,8 @@ pipeline après Exécution
 ![Tux, pipeline code](/images/pipelinejenkins.png)
 
 
-Workflow du Pipeline CI/CD avec Conditions d'Exécution
+### Share Library
+Dans le but de factoriser notre code , nous avons mis en place une librairie partagee (https://github.com/mjunie/sharelibrary),que nous configurons par la suite dans jenkins avec l'expression junie-webapp-slack-share-library
 
 ### Build image
 Construit l'image Docker en utilisant le Dockerfile que j'ai créé.
