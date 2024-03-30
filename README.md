@@ -4,10 +4,10 @@
 pipeline code
 
 Dans ce projet, j'ai conteneurisé une application web statique existante et mis en place un pipeline de CI/CD sur jenkins (en utilisant le jenkinsfile) pour automatiser les étapes de construction, de test et de déploiement de l'application sur eazylabs. Ce rapport explique les étapes du pipeline que vous trouverez dans le fichier jenkinsfile, et les avantages de cette approche.
-Auteur : Macougoum junie
-Contexte : formation Bootcamp DevOps promotion 15
-Centre de formation : eazytraining.fr
-LinkedIn : https://www.linkedin.com/in/
+** Auteur ** : Macougoum junie
+** Contexte ** : formation Bootcamp DevOps promotion 15
+** Centre de formation ** : eazytraining.fr
+** LinkedIn ** : https://www.linkedin.com/in/
 
 Aperçu du pipeline CI/CD
 pipeline après Exécution
